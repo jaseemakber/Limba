@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://source.unsplash.com/1600x900/?cute,love');
+            background-size: cover;
+            text-align: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .message {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h1>Limbaaa, Happy Valentine's Day!</h1>
+        <p>I love you to the moon and back ❤️</p>
+    </div>
+</body>
+</html>
